@@ -8,9 +8,9 @@ pass = passElt.value ;
 
 var http = require('http');
 
-//The url we want is `www.nodejitsu.com:1337/`
+//The url we want is "http://localhost:8080/api/"
 var options = {
-  host: "http://localhost:8080/",
+  host: "http://localhost:8080/api/",
   path: '/',
   //since we are listening on a custom port, we need to specify it by hand
   port: '8080',
@@ -31,5 +31,4 @@ callback = function(response) {
 
 var req = http.request(options, callback);
 //This is the data we are posting, it needs to be a string or a buffer
-req.write("hello world!");
-req.end();
+req.send("hello world!");
