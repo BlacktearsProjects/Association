@@ -115,7 +115,7 @@ body {
 
 #features-sec
 {
-    background: url(../img/data4.jpeg) no-repeat fixed ;
+    background: url(../img/data3.jpg) no-repeat fixed;
 }
 
 
@@ -166,7 +166,7 @@ body {
 
 h1::after {
     content: " ";
-    border: solid 2px #2f9484;
+    border: solid 2px ##2f9484;;
     display: block;
     width: 200px;
     margin: 12px auto;
@@ -224,11 +224,14 @@ h1::after {
     -moz-border-radius: 0px;
     margin-bottom: 20px;
 }
+
+
+
 /*=====================================
   FACULTY STYLES 
   ===================================*/
 #faculty-sec {
-    background: url(../img/forum3.jpeg) no-repeat;
+    background: url(../img/forum.jpg) no-repeat fixed;
 
 }
 
@@ -268,7 +271,7 @@ h1::after {
 #contact-sec {
     padding-top: 10px;
     padding-bottom: 60px;
-    background: url(../img/contact.jpg) no-repeat center center;
+    background: url(../img/contact.jpg) no-repeat fixed;
     padding: 0;
     -webkit-background-size: cover;
     background-size: cover;
