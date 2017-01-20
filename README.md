@@ -1,13 +1,13 @@
 # Association RETIF 
 
-Le dossier RETIF comprend 2 dossiers :
+RETIF is a French an organization that aims to give French courses for refugees and immigrants in Paris, France.
 
-1- Accueil-RETIF : Ce dossier contient un fichier ACCUEIL.html et un dossier (JS,CSS,Images...). Il faut ouvrir le fichier ACCUEIL.HTML pour accéder à la page principale du site.
+The directory RETIF contains 3 directories:
 
-1- Intervenant-RETIF : Ce dossier contient un fichier intervenant.html et un dossier (JS,CSS,Images...). Il faut ouvrir le fichier INTERVENANT.HTML pour accéder à la page du site suite à la connexion d'un intervenant avec son pseudo et son mot de passe.
+1- Accueil: The first one contains the main page. The home where general information can be found about the organization.
 
+2- Intervenant: The second one is only dedicated to teachers. They have a database, a forum to communicate and a profile.
 
-# Protocole d'authentification avec SRP
-1- Partie Client 
+3- BD: The third one contains the main pages of the database. Teachers can put their reports and access to other teachers' reports.
 
-2- Partie Serveur 
+PS :The main HTML/CSS/JS template is derived from the internet. 
