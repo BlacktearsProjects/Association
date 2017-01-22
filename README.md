@@ -16,14 +16,17 @@ PS :The main HTML/CSS/JS template is derived from the internet.
 What to do : 
 
 All :
-1- Make it work well with all the browsers and computers 
+1- Make it work well with all the browsers and computers : change with flex box and % to adapt it.
 
 Home :
+2- Add a home page with 2 buttons : RETIF 12 or RETIF 14.
+
+Accueil :
 2- Add students and teachers sections to sign in and remove the connection section
 3- Remove News and put them in élèves section 
 
 ÉLÈVE :
-4- Add élève section with useful links, news, hours, and places 
+4- Add "élève" section with useful links, news, hours and places of the courses 
 
 Intervenant :
 2- Remove the Forum and add the calenders
