@@ -10,4 +10,22 @@ The directory RETIF contains 3 directories:
 
 3- BD: The third one contains the main pages of the database. Teachers can put their reports and access to other teachers' reports.
 
-PS :The main HTML/CSS/JS template is derived from the internet. 
+PS :The main HTML/CSS/JS template is derived from the internet.
+
+
+What to do : 
+
+All :
+1- Make it work well with all the browsers and computers 
+
+Home :
+2- Add students and teachers sections to sign in and remove the connection section
+3- Remove News and put them in élèves section 
+
+ÉLÈVE :
+4- Add élève section with useful links, news, hours, and places 
+
+Intervenant :
+2- Remove the Forum and add the calenders
+4- Add profil (modify, messages)
+5- Remove modify profile and add "no course" section 
