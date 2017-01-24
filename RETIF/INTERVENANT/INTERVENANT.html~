@@ -13,12 +13,12 @@
      <!-- FLEXSLIDER CSS -->
 <link href="assets/css/flexslider.css" rel="stylesheet" />
     <!-- CUSTOM STYLE CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" />    
   <!-- Google	Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
 </head>
 <body >
-
+   
  <div class="navbar navbar-inverse navbar-fixed-top " id="menu">
         <div class="container">
             <div class="navbar-header">
@@ -38,7 +38,7 @@
                      <li><a href="#contact-sec">MODIFIER PROFIL</a></li>
                 </ul>
             </div>
-
+           
         </div>
     </div>
 	<div class="test">
@@ -47,17 +47,17 @@
            <div class="overlay">
  				<div class="container">
 				   <div class="row text-center " >
-
+				   
 				       <div class="col-lg-12  col-md-12 col-sm-12">
-
+				       
 				        <div class="flexslider set-flexi" id="main-section" >
 				            <ul class="slides move-me">
 				                <!-- Slider 01 -->
 				                <li>
-
+				                      
 				                   <h1>BIENVENUE CHER INTERVENANT </h1>
 				                    <a  href="#features-sec" class="btn btn-info btn-lg" >
-				                        BASE DE DONNÉES
+				                        BASE DE DONNÉES 
 				                    </a>
 				                     <a  href="#faculty-sec" class="btn btn-default btn-lg" >
 				                        FORUM
@@ -70,7 +70,7 @@
 				                    </a>
 				                </li>
 				                <!-- End Slider 01 -->
-
+				           
 				            </ul>
 				        </div>
             	</div>
@@ -81,25 +81,25 @@
 <div  class="tag-line" >
 				 <div class="container">
 				   <div class="row  text-center" >
-
+				   
 				       <div class="col-lg-12  col-md-12 col-sm-12">
-
+				       
 				<h2 data-scroll-reveal="enter from the bottom after 0.1s" ><i class="fa fa-circle-o-notch"></i> Bienvenue dans ton espace intervenant<i class="fa fa-circle-o-notch"></i> </h2>
 				           </div>
 				       </div>
 				     </div>
-
+				
 		</div>
 </div>
-       <!--HOME SECTION END-->
-
-    <!--HOME SECTION TAG LINE END-->
+       <!--HOME SECTION END-->   
+    
+    <!--HOME SECTION TAG LINE END-->   
          <div id="features-sec" class="container set-pad" >
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <h1 data-scroll-reveal="enter from the bottom after 0.2s"  class="header-line-BD">BASE DE DONNÉES </h1>
                      <p data-scroll-reveal="enter from the bottom after 0.3s" class="text-blanc" >
-
+                     
                       Dans cette section, vous pourrez déposer vos comptes-rendus. Vous pourrez aussi consulter les documents de vos collégues et vous inspirez pour votre prochaine leçon !
                          </p>
 
@@ -109,10 +109,10 @@
                         <li>
                               <h3 class="text-blanc">J'accéde aux archives des rendus</h3>
                            <h1 class="text-blanc">Je n'oublie pas de déposer mon compte-rendu</h1>
-
+                           
 
                            <div id="bouttons">
-
+         
                             <p>
                              <a  href="../BD/ARCHIVES/ARCHIVES.html" class="btn btn-info btn-lg" class="boutton">
                                ACCÉDER AUX ARCHIVES
@@ -133,7 +133,7 @@
              </div>
 
         </div>
-
+             
    <!-- FEATURES SECTION END-->
     <div id="faculty-sec" class="container set-pad">
     <div class="container set-pad">
@@ -142,7 +142,7 @@
                      <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line-BD"> FORUM </h1>
                      <p data-scroll-reveal="enter from the bottom after 0.3s">
                       <p data-scroll-reveal="enter from the bottom after 0.3s" class="text-blanc" >
-
+                     
                      Avez-vous une question sur le déroulement des cours ou sur l'association en général ?
                          </p>
 
@@ -152,10 +152,10 @@
                         <li>
                              <h3 class="text-blanc"> Souhaitez-vous contacter les autres intervenants ? </h3>
                            <h1 class="text-blanc">Vous êtes intéressés par quel Forum ?</h1>
-
+         
 
                            <div id="bouttons">
-
+         
                             <p>
                              <a  href="#" class="btn btn-info btn-lg" class="boutton">
                                DÉBUTANT
@@ -183,7 +183,7 @@
                  </div>
 
              </div>
-
+             
                  </div>
 
              </div>
@@ -201,8 +201,8 @@
              <!--/.HEADER LINE END-->
 
              <div class="row set-row-pad"  data-scroll-reveal="enter from the bottom after 0.5s" >
-
-
+           
+               
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
                    <form>
                         <div class="form-group">
@@ -250,8 +250,8 @@
              </div>
              <!--/.HEADER LINE END-->
            <div class="row set-row-pad"  data-scroll-reveal="enter from the bottom after 0.5s" >
-
-
+           
+               
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
                    <form>
                         <div class="form-group">
@@ -286,14 +286,14 @@
                     </form>
                 </div>
 
-
-
-
-
-
+                   
+     
+              
+              
+                
                </div>
                 </div>
-          </div>
+          </div> 
        </div>
  <div class="container">
              <div class="row set-row-pad"  >
@@ -315,7 +315,7 @@
                     </div>
 
                     <!-- This is the GOOGLE MAP for the Didot center -->
-                    <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1" data-scroll-reveal="enter from the bottom after 0.4s">
+                    <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1" data-scroll-reveal="enter from the bottom after 0.4s">                   
         <hr />
                     <h3><strong> Le cours d'informatique du LUNDI </h3></strong>
                     <div>
@@ -335,18 +335,18 @@
           &copy 2014 yourdomain.com | All Rights Reserved |  <a href="http://binarytheme.com" style="color: #fff" target="_blank">Design by : binarytheme.com</a>
     </div>
      <!-- FOOTER SECTION END-->
-
+   
     <!--  Jquery Core Script -->
     <script src="assets/js/jquery-1.10.2.js"></script>
     <!--  Core Bootstrap Script -->
     <script src="assets/js/bootstrap.js"></script>
-    <!--  Flexslider Scripts -->
+    <!--  Flexslider Scripts --> 
          <script src="assets/js/jquery.flexslider.js"></script>
      <!--  Scrolling Reveal Script -->
     <script src="assets/js/scrollReveal.js"></script>
-    <!--  Scroll Scripts -->
+    <!--  Scroll Scripts --> 
     <script src="assets/js/jquery.easing.min.js"></script>
-    <!--  Custom Scripts -->
+    <!--  Custom Scripts --> 
          <script src="assets/js/custom.js"></script>
 </body>
 </html>

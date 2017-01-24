@@ -6,7 +6,7 @@
 
     100% To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-
+   
     ========================================================  */
 
 /* =============================================================
@@ -26,7 +26,7 @@ body {
     padding-bottom:50px;
 }
 /*=====================================
-  NAVBAR STYLES
+  NAVBAR STYLES 
     ===================================*/
 
 .logo-custom {
@@ -54,9 +54,11 @@ body {
 
 
 /*=====================================
-  HOME STYLES
+  HOME STYLES 
     ===================================*/
 .home-sec {
+    padding-top: 10px;
+    padding-bottom: 60px;
     background: url(../img/header.jpg) no-repeat center center fixed;
     width: 100%;
     height: 93%;
@@ -102,7 +104,7 @@ body {
     margin: 5px;
 }
 /*=====================================
-  TAG LINE STYLES
+  TAG LINE STYLES 
     ===================================*/
 
 .tag-line {
@@ -122,7 +124,7 @@ body {
             margin-right: 8px;
         }
 /*=====================================
-  HEADER LINE STYLES
+  HEADER LINE STYLES 
     ===================================*/
 .header-line {
     font-weight: 900;
@@ -141,7 +143,7 @@ h1::after {
 }
 
 /*=====================================
-  ABOUT STYLES
+  ABOUT STYLES 
   ===================================*/
 .about-div {
     padding: 30px;
@@ -193,7 +195,7 @@ h1::after {
     margin-bottom: 20px;
 }
 /*=====================================
-  FACULTY STYLES
+  FACULTY STYLES 
   ===================================*/
 #faculty-sec {
     background-color: #002B4B ;
@@ -231,7 +233,7 @@ h1::after {
     }
 
 /*=====================================
-  CONTACT STYLES
+  CONTACT STYLES 
   ===================================*/
 #contact-sec {
     padding-top: 10px;
@@ -257,7 +259,7 @@ h1::after {
     color:#fff;
 }
 /*=====================================
-  Footer STYLES
+  Footer STYLES 
   ===================================*/
 #footer {
     padding:5px 20px;
