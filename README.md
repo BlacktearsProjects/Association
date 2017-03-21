@@ -4,7 +4,7 @@ RETIF is a French an organization that aims to give French courses for refugees 
 
 The directory RETIF contains 3 directories:
 
-1- Accueil: The first one contains the main page. The home where general information can be found about the organization.
+1- Accueil: The first one contains the main page. The home page where general information can be found about the organization RETIF. 
 
 2- Intervenant: The second one is only dedicated to teachers. They have a database, a forum to communicate and a profile.
 
@@ -16,10 +16,9 @@ PS :The main HTML/CSS/JS template is derived from the internet.
 What to do : 
 
 All :
-1- Make it work well with all the browsers and computers : change with flex box and % to adapt it.
+1- Make it work well with all the browsers and computers : change with Flex box and Bootstrap.
 
-Home :
-2- Add a home page with 2 buttons : RETIF 12 or RETIF 14.
+2- Add a home page for RETIF 12 and 14.
 
 Accueil :
 2- Add students and teachers sections to sign in and remove the connection section
