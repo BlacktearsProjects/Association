@@ -1,12 +1,12 @@
 ﻿/*=============================================================
-    Authour URI: www.binarytheme.com
+    Authour URI: www.binarythemete-sec
     License: Commons Attribution 3.0
 
     http://creativecommons.org/licenses/by/3.0/
 
     100% To use For Personal And Commercial Use.
     IN EXCHANGE JUST GIVE US CREDITS AND TELL YOUR FRIENDS ABOUT US
-
+   
     ========================================================  */
 
 /* =============================================================
@@ -19,14 +19,14 @@ body {
 }
 
 .set-pad {
-    padding-top:35px;
+    padding-top:3.5%;
 }
 .set-row-pad {
-    padding-top:30px;
-    padding-bottom:50px;
+    padding-top:3%;
+    padding-bottom:5%;
 }
 /*=====================================
-  NAVBAR STYLES
+  NAVBAR STYLES 
     ===================================*/
 
 .logo-custom {
@@ -36,7 +36,7 @@ body {
 #menu {
     background-color: rgba(28, 43, 75, 1);
     color: #fff;
-    font-size: 12px;
+    font-size: 15px;
     font-weight: 900;
     letter-spacing: 1px;
     min-height: 70px;
@@ -53,21 +53,24 @@ body {
     }
 
 
+
 /*=====================================
-  HOME STYLES
+  HOME STYLES 
     ===================================*/
 .home-sec {
-    background: url(../img/header.jpg) no-repeat center center fixed;
-    width: 100%;
-    height: 93%;
+    padding-top: 10px;
+    padding-bottom: 60px;
+    background: url(../img/header.jpg) no-repeat center center;
+    padding: 0;
+    -webkit-background-size: cover;
+    background-size: cover;
+    color: #fff;
+    background-attachment: fixed;
 }
-.test {
-    height: 100vh;
-}
+
     .home-sec .overlay {
         background: rgba(38, 57, 88, 0.89);
-        width: 100%;
-    	height: 100%;
+        min-height: 500px;
     }
 
     .home-sec h1 {
@@ -102,7 +105,7 @@ body {
     margin: 5px;
 }
 /*=====================================
-  TAG LINE STYLES
+  TAG LINE STYLES 
     ===================================*/
 
 .tag-line {
@@ -122,7 +125,7 @@ body {
             margin-right: 8px;
         }
 /*=====================================
-  HEADER LINE STYLES
+  HEADER LINE STYLES 
     ===================================*/
 .header-line {
     font-weight: 900;
@@ -141,7 +144,7 @@ h1::after {
 }
 
 /*=====================================
-  ABOUT STYLES
+  ABOUT STYLES 
   ===================================*/
 .about-div {
     padding: 30px;
@@ -193,7 +196,7 @@ h1::after {
     margin-bottom: 20px;
 }
 /*=====================================
-  FACULTY STYLES
+  FACULTY STYLES 
   ===================================*/
 #faculty-sec {
     background-color: #002B4B ;
@@ -231,7 +234,22 @@ h1::after {
     }
 
 /*=====================================
-  CONTACT STYLES
+  CONNEXION STYLES 
+  ===================================*/
+
+#connexion_btn
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fff;
+
+}
+
+
+/*=====================================
+  CONTACT STYLES 
   ===================================*/
 #contact-sec {
     padding-top: 10px;
@@ -256,8 +274,10 @@ h1::after {
     background-color:rgba(255, 255, 255, 0);
     color:#fff;
 }
+
+
 /*=====================================
-  Footer STYLES
+  Footer STYLES 
   ===================================*/
 #footer {
     padding:5px 20px;
@@ -265,4 +285,14 @@ h1::after {
     text-align:right;
     color:#fff;
     font-size:15px;
+}
+
+#cartes
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #fff;
+
 }

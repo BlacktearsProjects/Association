@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
+
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
@@ -9,16 +10,33 @@
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME CSS -->
-<link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
      <!-- FLEXSLIDER CSS -->
-<link href="assets/css/flexslider.css" rel="stylesheet" />
+    <link href="assets/css/flexslider.css" rel="stylesheet" />
     <!-- CUSTOM STYLE CSS -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-  <!-- Google	Fonts -->
+    <link href="assets/css/style.css" rel="stylesheet" />    
+     <!-- Google	Fonts -->
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css' />
+
+    <!-- Calendar -->
+    <link rel='stylesheet' href='assets/calendar/fullcalendar.css' />
+    <script src='assets/calendar/lib/jquery.min.js'></script>
+    <script src='assets/calendar/lib/moment.min.js'></script>
+    <script src='assets/calendar/fullcalendar.js'></script>
+    <script> 
+    $(document).ready(function() {
+    // page is now ready, initialize the calendar...
+    $('#calendar1').fullCalendar({
+        // put your options and callbacks here
+    })
+    });
+    </script>
+    <!-- End of calendar -->
+
+
 </head>
 <body >
-
+   
  <div class="navbar navbar-inverse navbar-fixed-top " id="menu">
         <div class="container">
             <div class="navbar-header">
@@ -33,86 +51,103 @@
                 <ul class="nav navbar-nav navbar-right">
                     <li ><a href="#home">ACCUEIL</a></li>
                      <li><a href="#features-sec">BASE DE DONNÉES</a></li>
-                    <li><a href="#faculty-sec">FORUM</a></li>
-                     <li><a href="#course-sec">PROCHAIN COURS</a></li>
-                     <li><a href="#contact-sec">MODIFIER PROFIL</a></li>
+                    <li><a href="#faculty-sec">PRÉSENCE ÉLÈVES</a></li>
+                     <li><a href="#course-sec">ANNULER COURS</a></li>
+                     <li><a href="#">PROFIL</a></li>
                 </ul>
             </div>
-
+           
         </div>
     </div>
-	<div class="test">
       <!--NAVBAR SECTION END-->
        <div class="home-sec" id="home" >
            <div class="overlay">
- 				<div class="container">
-				   <div class="row text-center " >
+ <div class="container">
+           <div class="row text-center " >
+           
+               <div class="col-lg-12  col-md-12 col-sm-12">
+               
+                <div class="flexslider set-flexi" id="main-section" >
+                    <ul class="slides move-me">
+                        <!-- Slider 01 -->
+                        <li>
+                              
+                           <h1>BIENVENUE CHER INTERVENANT </h1>
 
-				       <div class="col-lg-12  col-md-12 col-sm-12">
+                            <h3> Désires-tu déposer un compte-rendu ?  </h3>
 
-				        <div class="flexslider set-flexi" id="main-section" >
-				            <ul class="slides move-me">
-				                <!-- Slider 01 -->
-				                <li>
+                            <a  href="#features-sec" class="btn btn-info btn-lg" >
+                                BASE DE DONNÉES 
+                            </a>
 
-				                   <h1>BIENVENUE CHER INTERVENANT </h1>
-				                    <a  href="#features-sec" class="btn btn-info btn-lg" >
-				                        BASE DE DONNÉES
-				                    </a>
-				                     <a  href="#faculty-sec" class="btn btn-default btn-lg" >
-				                        FORUM
-				                    </a>
-				                     <a  href="#course-sec" class="btn btn-info btn-lg" >
-				                        PROCHAIN COURS
-				                    </a>
-				                    <a  href="#contact-sec" class="btn btn-default btn-lg" >
-				                        MODIFIER PROFIL
-				                    </a>
-				                </li>
-				                <!-- End Slider 01 -->
+                        </li>
+                        <!-- End Slider 01 -->
+                        <li>
+                              
+                           <h1>BIENVENUE CHER INTERVENANT </h1>
+                            <h3> Préféres-tu savoir à quel cours tes élèves ont assisté ?</h3>
 
-				            </ul>
-				        </div>
-            	</div>
-              </div>
+                            <a  href="#features-sec" class="btn btn-default btn-lg" >
+                                PRÉSENCE DES ÉLÈVES
+                            </a>
+
+                        </li>
+                        <!-- End Slider 01 -->
+                         <!-- Slider 01 -->
+                        <li>
+                              
+                           <h1>BIENVENUE CHER INTERVENANT </h1>
+                           <h3> Veux-tu annuler un cours ? </h3>
+
+                            <a  href="#course-sec" class="btn btn-info btn-lg" >
+                                ANNULER UN COURS
+                            </a>
+
+                        </li>
+                        <!-- End Slider 01 -->
+                   
+                   
+                    </ul>
+                </div>
+                   
+     
+              
+              
+            </div>
+                
+               </div>
+                </div>
            </div>
-        </div>
-      </div>
-<div  class="tag-line" >
-				 <div class="container">
-				   <div class="row  text-center" >
-
-				       <div class="col-lg-12  col-md-12 col-sm-12">
-
-				<h2 data-scroll-reveal="enter from the bottom after 0.1s" ><i class="fa fa-circle-o-notch"></i> Bienvenue dans ton espace intervenant<i class="fa fa-circle-o-notch"></i> </h2>
-				           </div>
-				       </div>
-				     </div>
-
-		</div>
-</div>
-       <!--HOME SECTION END-->
-
-    <!--HOME SECTION TAG LINE END-->
+           
+       </div>
+       <!--HOME SECTION END-->   
+    <div  class="tag-line" >
+         <div class="container">
+           <div class="row  text-center" >
+           
+               <div class="col-lg-12  col-md-12 col-sm-12">
+               
+        <h2 data-scroll-reveal="enter from the bottom after 0.1s" ><i class="fa fa-circle-o-notch"></i> Bienvenue dans ton espace intervenant<i class="fa fa-circle-o-notch"></i> </h2>
+                   </div>
+               </div>
+             </div>
+        
+    </div>
+    <!--HOME SECTION TAG LINE END-->   
          <div id="features-sec" class="container set-pad" >
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
                      <h1 data-scroll-reveal="enter from the bottom after 0.2s"  class="header-line-BD">BASE DE DONNÉES </h1>
-                     <p data-scroll-reveal="enter from the bottom after 0.3s" class="text-blanc" >
-
-                      Dans cette section, vous pourrez déposer vos comptes-rendus. Vous pourrez aussi consulter les documents de vos collégues et vous inspirez pour votre prochaine leçon !
-                         </p>
-
 
                          <ul id= "bouttons-fond" >
                         <!-- Slider 01 -->
                         <li>
                               <h3 class="text-blanc">J'accéde aux archives des rendus</h3>
-                           <h1 class="text-blanc">Je n'oublie pas de déposer mon compte-rendu</h1>
-
+                           <h2 class="text-blanc">Je n'oublie pas de déposer mon compte-rendu</h2>
+                           
 
                            <div id="bouttons">
-
+         
                             <p>
                              <a  href="../BD/ARCHIVES/ARCHIVES.html" class="btn btn-info btn-lg" class="boutton">
                                ACCÉDER AUX ARCHIVES
@@ -133,220 +168,100 @@
              </div>
 
         </div>
-
+             
    <!-- FEATURES SECTION END-->
     <div id="faculty-sec" class="container set-pad">
     <div class="container set-pad">
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line-BD"> FORUM </h1>
-                     <p data-scroll-reveal="enter from the bottom after 0.3s">
-                      <p data-scroll-reveal="enter from the bottom after 0.3s" class="text-blanc" >
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line-BD"> PRÉSENCE DES ÉLÈVES </h1>
+                      <h2 data-scroll-reveal="enter from the bottom after 0.3s" class="text-blanc" >
+                        Découvrez si vos élèves ont bien assisté à d'autres cours.  
+                      </h2>
 
-                     Avez-vous une question sur le déroulement des cours ou sur l'association en général ?
-                         </p>
-
-
-                         <ul id= "bouttons-fond" >
-                        <!-- Slider 01 -->
+                      <ul>
                         <li>
-                             <h3 class="text-blanc"> Souhaitez-vous contacter les autres intervenants ? </h3>
-                           <h1 class="text-blanc">Vous êtes intéressés par quel Forum ?</h1>
-
-
-                           <div id="bouttons">
-
-                            <p>
-                             <a  href="#" class="btn btn-info btn-lg" class="boutton">
-                               DÉBUTANT
-                            </a>
-                            </p>
-                             <p>
-                             <a  href="#" class="btn btn-info btn-lg" class="boutton">
-                                AVANCÉ
-                            </a>
-                            </p>
-                             <p>
-                             <a  href="#" class="btn btn-info btn-lg" class="boutton">
-                                EXPERT
-                            </a>
-                            </p>
-                            <p>
-                             <a  href="#" class="btn btn-info btn-lg" class="boutton">
-                                GÉNÉRAL
-                            </a>
-                            </p>
-                            </div>
+                             <h3 class="text-blanc"> DÉBUTANT </h3>
+                             <div id="calendar1"> </div>
                         </li>
-                        <!-- End Slider 01 -->
-                    </ul>
+
+                        <li>
+                             <h3 class="text-blanc"> AVANCÉ </h3>
+                            <div id="calendar2"> </div>
+                        </li>
+
+                        <li>
+                             <h3 class="text-blanc"> EXPERT </h3>
+                            <div id="calendar3"> </div>
+                        </li>
+                      </ul>
+                
                  </div>
-
              </div>
+        </div>
+    </div>
 
-                 </div>
-
-             </div>
     <!-- FACULTY SECTION END-->
       <div id="course-sec" class="container set-pad">
              <div class="row text-center">
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line"> MON PROCHAIN COURS </h1>
-                     <p data-scroll-reveal="enter from the bottom after 0.3s">
-                      Introduisez la date de votre prochain cours ainsi que les points clés que vous allez abordez.
-                         </p>
+                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line"> ANNULER MON PROCHAIN COURS </h1>
+                     <h2 data-scroll-reveal="enter from the bottom after 0.3s">
+                      Quel cours souhaitez-vous annuler ?
+                         </h2>
                  </div>
 
              </div>
              <!--/.HEADER LINE END-->
 
              <div class="row set-row-pad"  data-scroll-reveal="enter from the bottom after 0.5s" >
-
-
+           
+               
                  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
                    <form>
                         <div class="form-group">
-                            <label for="niveau"> NIVEAU DE VOTRE COURS </label></br>
+                            <label for="niveau"> NIVEAU DU COURS À ANNULER </label></br>
 
                         <input type="radio" name="niveau" id="niveau1" value="DÉBUTANT"/><label for="niveau_debutant">DÉBUTANT</label><br />
                         <input type="radio" name="niveau" id="niveau2" value="AVANCÉ"/> <label for="niveau_avance">AVANCÉ</label><br />
                         <input type="radio" name="niveau" id="niveau3" value="EXPERT"/> <label for="niveau_expert">EXPERT</label><br />
+                        <input type="radio" name="niveau" id="niveau4" value="TOUT"/> <label for="niveau_TOUT">TOUS LES COURS À LA DATE MENTIONNÉE </label><br />
 
                         </div>
                    <div class="form-group">
-                            <label for="date"> DATE DE VOTRE PROCHAIN COURS </label>
+                            <label for="date"> DATE DU COURS À ANNULER </label>
                             <input type="date" class="form-control "  id = "date" placeholder="JJ-MM-AAAA" />
                         </div>
-                   <div class="form-group">
-                        	<label for="MESSAGE"> LES POINTS CLÉS QUI SERONT ABORDÉS </label>
-                            <textarea name="message" required="required" class="form-control" id="MESSAGE" style="min-height: 150px;" placeholder="Le contenu de mon prochain cours..."></textarea>
-                    </div>
 
                         <div class="form-group">
-                            <button type="submit" class="btn btn-info btn-block btn-lg">Envoyer</button>
+                            <button type="submit" class="btn btn-info btn-block btn-lg">ANNULER</button>
                         </div>
 
                     </form>
                 </div>
             </div>
-
-
-
-
-
 
       <!-- COURSES SECTION END-->
-    <div id="contact-sec"  class="container set-pad" >
-           <div class="overlay">
- <div class="container set-pad">
-      <div class="row text-center">
-                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-sm-8 col-md-offset-2 col-sm-offset-2">
-                     <h1 data-scroll-reveal="enter from the bottom after 0.1s" class="header-line" >MODIFIER MON PROFIL </h1>
-                     <p data-scroll-reveal="enter from the bottom after 0.3s">
-                      Dans cette section, vous pourrez modifier votre profil. Les données que vous pourrez modifier sont affichées dans ce formulaire :
-                         </p>
-                 </div>
-
-             </div>
-             <!--/.HEADER LINE END-->
-           <div class="row set-row-pad"  data-scroll-reveal="enter from the bottom after 0.5s" >
 
 
-                 <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
-                   <form>
-                        <div class="form-group">
-                        	<label for="NOM"> NOM </label>
-                            <input type="text" class="form-control "  id = "NOM" placeholder="Changer mon NOM" />
-                        </div>
-
-                        <div class="form-group">
-                            <label for="PRENOM"> PRÉNOM </label>
-                            <input type="text" class="form-control "  id = "PRENOM" placeholder="Changer mon PRENOM" />
-                        </div>
-
-                        <div class="form-group">
-                            <label for="EMAIL"> EMAIL </label>
-                            <input type="text" class="form-control "  id = "EMAIL" placeholder="Changer mon EMAIL" />
-                        </div>
-
-                        <div class="form-group">
-                            <label for="pass"> MOT DE PASSE </label>
-                            <input type="password" class="form-control "  id = "pass" placeholder="Changer mon MOT DE PASSE" />
-                        </div>
-
-                        <div class="form-group">
-                        	<label for="MESSAGE"> DESCRIPTION PERSONNELLE </label>
-                            <textarea name="message" required="required" class="form-control" id="MESSAGE" style="min-height: 150px;" placeholder="Message"></textarea>
-                        </div>
-
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-info btn-block btn-lg">MODIFIER</button>
-                        </div>
-
-                    </form>
-                </div>
-
-
-
-
-
-
-               </div>
-                </div>
-          </div>
-       </div>
- <div class="container">
-             <div class="row set-row-pad"  >
-
-
-                    <!-- This is the GOOGLE MAP for the Noguès center -->
-                    <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1 " data-scroll-reveal="enter from the bottom after 0.4s">
-
-        <hr />
-                    <h3><strong> Les cours du MARDI, MERCREDI et JEUDI</strong></h3>
-                    <div>
-                        <h4> Centre social Maurice Noguès </h4>
-                        <h4> 5 avenue de la Porte de Vanves </h4>
-                        <h4> 75014 PARIS </h4>
-                        <h4> Métro 13 ou Tram T3a : Porte de Vanves</h4>
-                    </div>
-
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.6887037570127!2d2.302679214796208!3d48.82600071094223!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6705b30904825%3A0xce2ab997d2bbb102!2sCentre+Social+Maurice+Nogu%C3%A8s!5e0!3m2!1sfr!2sfr!4v1484058791817" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-
-                    <!-- This is the GOOGLE MAP for the Didot center -->
-                    <div class="col-lg-4 col-md-4 col-sm-4   col-lg-offset-1 col-md-offset-1 col-sm-offset-1" data-scroll-reveal="enter from the bottom after 0.4s">
-        <hr />
-                    <h3><strong> Le cours d'informatique du LUNDI </h3></strong>
-                    <div>
-                        <h4>Centre social Didot </h4>
-                        <h4>15, rue des Mariniers </h4>
-                        <h4>75014 Paris </h4>
-                        <h4> Métro 13 ou Tram T3a : Porte de Vanves</h4>
-                    </div>
-
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2626.6359156319277!2d2.309997314796262!3d48.827007810871336!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e6704e20525acf%3A0xbee3fab76bc2a2e!2s15+Rue+des+Mariniers%2C+75014+Paris!5e0!3m2!1sfr!2sfr!4v1484058508523" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
-                    </div>
-
-            </div>
-        </div>
-     <!-- CONTACT SECTION END-->
     <div id="footer">
           &copy 2014 yourdomain.com | All Rights Reserved |  <a href="http://binarytheme.com" style="color: #fff" target="_blank">Design by : binarytheme.com</a>
     </div>
      <!-- FOOTER SECTION END-->
-
+   
     <!--  Jquery Core Script -->
     <script src="assets/js/jquery-1.10.2.js"></script>
     <!--  Core Bootstrap Script -->
     <script src="assets/js/bootstrap.js"></script>
-    <!--  Flexslider Scripts -->
+    <!--  Flexslider Scripts --> 
          <script src="assets/js/jquery.flexslider.js"></script>
      <!--  Scrolling Reveal Script -->
     <script src="assets/js/scrollReveal.js"></script>
-    <!--  Scroll Scripts -->
+    <!--  Scroll Scripts --> 
     <script src="assets/js/jquery.easing.min.js"></script>
-    <!--  Custom Scripts -->
-         <script src="assets/js/custom.js"></script>
+    <!--  Custom Scripts --> 
+    <script src="assets/js/custom.js"></script>
+
+
 </body>
 </html>
